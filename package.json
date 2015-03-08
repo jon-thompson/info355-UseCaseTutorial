@@ -1,0 +1,24 @@
+{
+  "name": "info355-UseCaseTutorial",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.12.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jthompson1014/info355-UseCaseTutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jthompson1014/info355-UseCaseTutorial/issues"
+  },
+  "homepage": "https://github.com/jthompson1014/info355-UseCaseTutorial"
+}
