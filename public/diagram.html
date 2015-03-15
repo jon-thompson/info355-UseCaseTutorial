@@ -6,5 +6,67 @@
 	<h1>Creating Use Case Diagrams</h1>
 
 	<p>A <a href="index.html#use-case-diagram">use case diagram</a> illustrates all of the use cases in a system how they relate to the system's actors.</p>
+
+	<section>
+		<h2>Components of a Use Case Diagram</h2>
+		<ul>
+			<li><strong>Actor</strong> - represented by a labelled stick figure</li>
+			<li><strong>System boundary</strong> - represented by a bordered box</li>
+			<li><strong>Use case</strong> - represented by a labelled oval</li>
+			<li><strong>Communication association</strong> - represented by a line (with or without an arrow) connecting a use case and an actor</li>
+		</ul>
+	</section>
+
+	<section>
+		<h2>Actor-based Approach to Creating Use Case Diagrams</h2>
+		<ol>
+			<li>Identify the system boundary</li>
+			<li>Identify the primary actors</li>
+			<li>For each actor, identify the actor's goals</li>
+			<li>For each goal, identify the use cases that will help meet that goal</li>
+		</ol>
+	</section>
+
+	<section>
+		<h2>Detailed example: ATM</h2>
+
+		<p>To illustrate the actor-based approach, let's walk through the approach for an ATM system.</p>
+
+		<h3>Identify the system boundary</h3>
+
+		<p>For an ATM, the system boundary is relatively clear: it is the machine itself. So when we create use cases, those use cases should be limited to the functionality of the machine.</p>
+
+		<h3>Identify the primary actors</h3>
+
+		<p>Since the ATM is our system boundary, what is outside of that boundary that interacts with the ATM? There are two clear answers: the customer and the bank.</p>
+
+		<p>However, because the customer is always the one to initiate interactions with an ATM, the customer is the primary actor. The bank is a passive actor because it is involved in the interactions but never initiates any.</p>
+
+		<h3>Identify the goals</h3>
+
+		<p>What goals does a customer have when using an ATM? Two come to mind:</p>
+		<ul>
+			<li>Check balances of accounts</li>
+			<li>Manage money</li>
+		</ul>
+
+		<h3>Identify the use cases</h3>
+		<p>Next, we need to take the goals from the previous step and identify the use cases that can acheive those goals.</p>
+
+		<p>We only need one use case to accomplish the <strong>Check balances of accounts</strong> goal:</p>
+		<ul>
+			<li>Check balance</li>
+		</ul>
+
+		<p>However, to accomplish the <strong>Manage money</strong> goal, we'll need a few use cases:</p>
+		<ul>
+			<li>Withdraw money</li>
+			<li>Deposit money</li>
+			<li>Transfer money</li>
+		</ul>
+
+		<h3>Result</h3>
+		<p>With the four-step actor-based approach, we identified the system boundary, two actors, and four use cases. With these identified, we can easily draw the use case diagram as such:</p>
+	</section>
 </body>
 </html>
