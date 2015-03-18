@@ -1,6 +1,7 @@
 <html>
 <head>
 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
 	<title>Use Case Modeling</title>
 </head>
 <body>
@@ -26,23 +27,29 @@
 
 		<p>A <strong>use case</strong> is unit of work performed by a system that an <a href="#actor">actor</a> uses. Each use case accomplishes a user goal. The complete set of use cases represents the entire functionality of that system.</p>
 
-		<p>
-			<h3>Good Examples</h3>
-			<ul>
-				<li>Login</li>
-				<li>Order item</li>
-				<li>Withdraw money</li>
-			</ul>
-		</p>
+		<div class="row">
+			<div class="col-md-6">
+				<section class="section section-green">
+					<h4>Good Examples</h4>
+					<ul>
+						<li>Login</li>
+						<li>Order item</li>
+						<li>Withdraw money</li>
+					</ul>
+				</section>
+			</div>
 
-		<p>
-			<h3>Bad Examples</h3>
-			<ul>
-				<li>Type in password</li>
-				<li>Click on item</li>
-				<li>Enter PIN</li>
-			</ul>
-		</p>
+			<div class="col-md-6">
+				<section class="section section-red">
+					<h4>Bad Examples</h4>
+					<ul>
+						<li>Type in password</li>
+						<li>Click on item</li>
+						<li>Enter PIN</li>
+					</ul>
+				</section>
+			</div>
+		</div>
 	</section>
 
 	<section id="actor">
@@ -50,22 +57,28 @@
 
 		<p>An <strong>actor</strong> is any person or other external entity that initiates a use case for the system.</p>
 
-		<p>
-			<h3>Good Examples</h3>
-			<ul>
-				<li>Student</li>
-				<li>Customer</li>
-				<li>Bank</li>
-			</ul>
-		</p>
+		<div class="row">
+			<div class="col-md-6">
+				<section class="section section-green">
+					<h4>Good Examples</h4>
+					<ul>
+						<li>Student</li>
+						<li>Customer</li>
+						<li>Bank</li>
+					</ul>
+				</section>
+			</div>
 
-		<p>
-			<h3>Bad Examples</h3>
-			<ul>
-				<li>The system itself</li>
-				<li>Anything completely unrelated to the system</li>
-			</ul>
-		</p>
+			<div class="col-md-6">
+				<section class="section section-red">
+					<h4>Bad Examples</h4>
+					<ul>
+						<li>The system itself</li>
+						<li>Anything completely unrelated to the system</li>
+					</ul>
+				</section>
+			</div>
+		</div>
 	</section>
 
 	<section id="use-case-diagram">
@@ -83,7 +96,28 @@
 
 		<p><a href="specification.html">Learn how to create use case specifications.</a></p>
 	</section>
+
+	<section>
+		<h2>References and other resources</h2>
+		<ul>
+			<li>
+				<a href="docs/use-case-modeling.pdf" target="_blank">
+					Use Case Modeling - Il-Yeol Song, Ph.D.
+				</a>
+			</li>
+			<li>
+				<a href="http://www.usability.gov/how-to-and-tools/methods/use-cases.html" target="_blank">
+					Use Cases - usability.gov
+				</a>
+			</li>
+		</ul>
+	</section>
 	</div>
+
+	<footer>
+		Created by Jon Thompson for INFO 355.<br>
+		Last updated: 19 March 2015
+	</footer>
 </body>
 </html>
 
